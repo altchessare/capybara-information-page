@@ -1,0 +1,42 @@
+*{
+    border: 1px black solid;
+
+}
+
+body{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    flex: 1;
+    justify-content: space-around;
+    background-image: url('../media/iStock-1286012785.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+header h1,
+header h3{
+    color: white;
+    background-color: black;
+}
+
+.main{
+    display: flex;
+}
+
+.nav{
+    flex: 0.5
+}
+
+.midsect{
+    flex: 3;
+}
+
+.rightsect{
+    flex: 1
+}
